@@ -1,4 +1,4 @@
-# Yash Soni's Enhanced Portfolio  
+# Hassan Ali Enhanced Portfolio  
 
 Check out the live demo of the website [here](https://yashsoni7978.github.io/Yashsoniportfolio/).  
 
