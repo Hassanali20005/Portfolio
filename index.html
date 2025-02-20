@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- --------- UNICONS ---------- -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- --------- CSS ---------- -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- --------- FAVICON ---------- -->
+    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
+
+    <title>Portfolio | Hassan Ali</title>
+</head>
+<style>
+    .link-style {
+        text-decoration: none;
+        color: inherit;
+    }
+
+    .link-style h3 {
+        color: blue;
+        /* Change to your desired link color */
+        text-decoration: underline;
+        /* Optional: to mimic a link style */
+    }
+</style>
+
+<body>
+    <div class="c">
+
+        <div class="container">
+            <!-- --------------- HEADER --------------- -->
+            <nav id="header">
+                <div class="nav-logo">
+                    <p class="nav-name">Hassan Ali</p>
+                </div>
+                <div class="nav-menu" id="myNavMenu">
+                    <ul class="nav_menu_list">
+                        <li class="nav_list">
+                            <a href="#home" class="nav-link active-link">Home</a>
+                        </li>
+                        <li class="nav_list">
+                            <a href="#about" class="nav-link">About</a>
+                        </li>
+                        <li class="nav_list">
+                            <a href="#skills" class="nav-link">Skills</a>
+                        </li>
+                        <li class="nav_list">
+                            <a href="#projects" class="nav-link">Projects</a>
+                        </li>
+                        <li class="nav_list">
+                            <a href="#contact" class="nav-link">Contact</a>
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="nav-menu-btn" id="menuBtn">
+                    <i class="uil uil-bars" onclick="myMenuFunction()"></i>
+                </div>
+            </nav>
+
+
+            <!-- -------------- MAIN ---------------- -->
+            <main class="wrapper">
+                <!-- -------------- FEATURED BOX ---------------- -->
+                <section class="featured-box" id="home">
+                    <div class="featured-text">
+                        <!-- <div class="featured-text-card">
+                <span>Riya Sharma</span>
+            </div> -->
+                        <div class="name">
+                            <p>I'm Hassan Ali</p>
+                        </div>
+
+                        <div class="featured-name">
+
+                            <p>Professional <span class="typedText"></span></p>
+                        </div>
+                        <div class="featured-text-info">
+                            <p>I am a dedicated professional with expertise in data analysis, Java development, and web
+                                development. Having successfully completed a range of projects, I am now ready to apply
+                                my skills to drive innovation and deliver meaningful results in dynamic environments.
+
+                            </p>
+                        </div>
+                        <br>
+                        <div class="featured-text-btn">
+
+                            <a href="./document/my-cv.pdf" type="button" target="_blank" class="btn btn-primary"><i
+                                    class="uil uil-file-alt"></i> Download CV</a>
+
+
+                        </div>
+
+                        <div class="social_icons">
+
+                            <a href="https://www.linkedin.com/in/in/hassan-ali-132437344" target="_blank"
+                                rel="noopener noreferrer">
+                                <i class="uil uil-linkedin-alt"></i>
+                            </a>
+                            <a href="https://github.com/Hassanali20005" target="_blank" rel="noopener noreferrer">
+                                <i class="uil uil-github-alt"></i>
+                            </a>
+                            <a href="https://www.instagram.com/itxs.hassanali" target="_blank"
+                                rel="noopener noreferrer">
+                                <i class="uil uil-instagram"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="featured-image">
+                        <div class="image">
+                            <img src="Images/h.JPG" alt="avatar">
+                        </div>
+                    </div>
+                    <!-- <div class="scroll-icon-box">
+            <a href="#about" class="scroll-btn">
+                <i class="uil uil-mouse-alt"></i>
+                <p>Scroll Down</p>
+            </a>
+          </div> -->
+
+                </section>
+
+
+
+
+
+
+
+                <!-- -------------- ABOUT BOX ---------------- -->
+
+                <section class="section" id="about">
+                    <div class="top-header">
+                        <h1>About Me</h1>
+                    </div>
+                    <div class="row">
+                        <!-- About Text Section -->
+                        <div class="col about-col">
+                            <div class="about-info">
+                                <p>
+                                    I'm Hassan , a dedicated and passionate programmer currently pursuing my Master's in
+                                    Computer Application at JECRC University in Jaipur, specializing in Data Science. My
+                                    journey in the tech world has equipped me with solid foundations in Java development
+                                    and web development. I thrive on tackling complex problems and turning ideas into
+                                    reality through code.
+
+                                    My expertise in data analysis allows me to uncover insights and drive
+                                    decision-making processes. Whether it's developing robust Java applications or
+                                    creating dynamic web experiences.
+                                </p>
+                                <div class="about-btn">
+                                    <a href="#contact" class="btn">Contact <i class="uil uil-envelope"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- About Image Section -->
+                        <div class="col image-col">
+                            <img src="Images/banner.png" alt="About Image">
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Education Section -->
+                <div class="top-header">
+                    <h1>Education</h1>
+                </div section id="education">
+                <div class="education-section">
+
+                    <div class="education-grid">
+
+                        <div class="education-entry">
+                            <div class="entry-time">Matriculation</div>
+                            <div class="entry-degree">Matric with science in Karachi Board</div>
+                        </div>
+
+                        <div class="education-entry">
+                            <div class="entry-time">Intermediated</div>
+                            <div class="entry-degree">Inter with computer science in Karachi Board (Continue) </div>
+                        </div>
+
+                        <div class="education-entry">
+                            <div class="entry-time">Software Engineering</div>
+                            <div class="entry-degree">3 years diploma software engineering in Aptech Centre. (Continue)
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                </section>
+
+                <section class="skills-section" id="skills">
+                    <div class="container">
+                        <div class="top-header">
+                            <h1 style="color: white;">Skills</h1>
+                        </div>
+                        <div class="skills-content">
+                            <div class="skills-column">
+
+                                <div class="skills-box" onclick="hideAllDescriptions()">
+                                    <h3 onclick="toggleContent(event, 'development')"><a
+                                            href="javascript:void(0);">Frontend</a></h3>
+                                    <div class="skills-grid">
+                                        <div class="skill-item" onclick="toggleSkillContent(event, 'html')">
+                                            <img src="Images/html.png" alt="HTML">
+                                            <span>HTML</span>
+                                        </div>
+                                        <div class="skill-item" onclick="toggleSkillContent(event, 'css')">
+                                            <img src="Images/css.png" alt="CSS">
+                                            <span>CSS</span>
+                                        </div>
+                                        <div class="skill-item" onclick="toggleSkillContent(event, 'javascript')">
+                                            <img src="Images/js.png" alt="JavaScript">
+                                            <span>JavaScript</span>
+                                        </div>
+                                        <div class="skill-item" onclick="toggleSkillContent(event, 'bootstrap')">
+                                            <img src="Images/bootstrap.png" alt="Bootstrap">
+                                            <span>Bootstrap</span>
+                                        </div>
+                                    </div>
+                                    <div class="more-content" id="development">
+                                        <p>
+                                            Development involves creating, designing, and maintaining websites and
+                                            applications. It requires knowledge of various programming languages,
+                                            frameworks, and tools. This skill set includes front-end development,
+                                            back-end development, and full-stack development.
+                                        </p>
+                                        <div class="skill-more-content" id="html">
+                                            <p>I have utilized HTML extensively during my internship, creating and
+                                                structuring numerous web projects to ensure semantic and accessible web
+                                                pages.</p>
+                                        </div>
+                                        <div class="skill-more-content" id="css">
+                                            <p>Proficient in CSS, I have styled numerous web applications to enhance
+                                                their visual appeal. I ensured responsive design across various devices,
+                                                creating visually attractive and user-friendly websites.</p>
+                                        </div>
+                                        <div class="skill-more-content" id="javascript">
+                                            <p>Skilled in JavaScript, I developed dynamic and interactive web features
+                                                for multiple projects. This improved user engagement and provided a
+                                                richer user experience.</p>
+                                        </div>
+                                        <div class="skill-more-content" id="bootstrap">
+                                            <p>Experienced with Bootstrap, I have efficiently built responsive and
+                                                modern web interfaces. Leveraging its components and grid system, I
+                                                ensured quick and consistent development across projects.</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="skills-box" onclick="hideAllDescriptions()">
+                                    <h3 onclick="toggleContent(event, 'programming-database')"><a
+                                            href="javascript:void(0);">Backend </a></h3>
+                                    <div class="skills-grid">
+                                        <div class="skill-item" onclick="toggleSkillContent(event, 'laravel')">
+                                            <img src="Images/laravel.PNG" alt="laravel">
+                                            <span>LARAVEL</span>
+                                        </div>
+                                        <div class="skill-item" onclick="toggleSkillContent(event, '.NET Core MVC')">
+                                            <img src="Images/logo.png" alt=".NET Core MVC ">
+                                            <span>.NET Core MVC </span>
+                                        </div>
+                                        <div class="skill-item" onclick="toggleSkillContent(event, 'wordpress')">
+                                            <img src="Images/wordpress.png" alt="wordpress">
+                                            <span>wordpress </span>
+                                        </div>
+                                        <div class="skill-item" onclick="toggleSkillContent(event, 'c++')">
+                                            <img src="Images/c++.png" alt="C++">
+                                            <span>C++</span>
+                                        </div>
+                                    </div>
+                                    <div class="more-content" id="programming-database">
+                                        <p>
+                                            Programming and database management involve writing code and managing
+                                            databases to create efficient and scalable software applications. This
+                                            includes understanding data structures, algorithms, and database design
+                                            principles.
+                                        </p>
+                                        <div class="skill-more-content" id="wordpress">
+                                            <p>Proficient in WordPress, I have developed and managed dynamic websites
+                                                and blogs, utilizing its powerful CMS features to create customized,
+                                                user-friendly web solutions.</p>
+                                        </div>
+                                        <div class="skill-more-content" id="c++">
+                                            <p>Developed performance-critical applications in C++, leveraging
+                                                object-oriented principles, STL, and advanced features to deliver
+                                                high-quality software solutions.</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="skills-box" onclick="hideAllDescriptions()">
+                                    <h3 onclick="toggleContent(event, 'programming-database')"><a
+                                            href="javascript:void(0);">Database </a></h3>
+                                    <div class="skills-grid">
+                                        <div class="skill-item" onclick="toggleSkillContent(event, 'mysql')">
+                                            <img src="Images/mysqli.PNG" alt="mysql">
+                                            <span>MySQL</span>
+                                        </div>
+                                        <div class="skill-item" onclick="toggleSkillContent(event, 'java')">
+                                            <img src="Images/java.png" alt="java ">
+                                            <span>java </span>
+                                        </div>
+                                    </div>
+                                    <div class="more-content" id="programming-database">
+                                        <p>
+                                            Programming and database management involve writing code and managing
+                                            databases to create efficient and scalable software applications. This
+                                            includes understanding data structures, algorithms, and database design
+                                            principles.
+                                        </p>
+                                        <div class="skill-more-content" id="mysql">
+                                            <p>Designed and managed complex databases using MySQL, ensuring data
+                                                integrity and optimizing queries for efficient data retrieval and
+                                                management in web applications.</p>
+                                        </div>
+                                        <div class="skill-more-content" id="java">
+                                            <p>Developed scalable and efficient applications in Java, including
+                                                object-oriented programming, multithreading, and working with various
+                                                Java frameworks.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+
+
+                <!-- -------------- PROJECT BOX ---------------- -->
+
+                <section class="section" id="projects">
+                    <div class="top-header">
+                        <h1>Projects</h1>
+                    </div>
+                    <div class="row">
+                        <div class="column">
+                            <div class="effect">
+                                <div class="effect-img">
+                                    <img src="Images/pro5.jpg" alt="Description " style="width: 300px; height: 250px;">
+                                </div>
+                                <div class="effect-text">
+                                    <div class="inner">
+                                        <h2>Personal Finance management</h2>
+                                        <!-- <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat velit qui quos repellat nulla soluta exceptu.</p> -->
+
+                                        <div class="effect-btn">
+                                            <a href="https://github.com/Attendize/Attendize" target="_blank"
+                                                class="btn"><i class="fa fa-github"></i> GitHub</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="column">
+                            <div class="effect">
+                                <div class="effect-img">
+                                    <img src="Images/proj8.jpg" alt="Description of the image"
+                                        style="width: 300px; height: 250px;">
+                                </div>
+                                <div class="effect-text">
+                                    <div class="inner">
+                                        <h2>Sales Forcasting Application </h2>
+                                        <!-- <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat velit qui quos repellat nulla soluta exceptu.</p> -->
+                                        <div class="effect-btn">
+                                            <a href="https://github.com/riyasharma029/hospital_management"
+                                                target="_blank" class="btn"><i class="fa fa-github"></i> GitHub</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="column">
+                            <div class="effect">
+                                <div class="effect-img">
+                                    <img src="Images/pro3.jpg" alt="Description of the image"
+                                        style="width: 300px; height: 250px;">
+                                </div>
+                                <div class="effect-text">
+                                    <div class="inner">
+                                        <h2>Event Management website </h2>
+                                        <!-- <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat velit qui quos repellat nulla soluta exceptu.</p> -->
+                                        <div class="effect-btn">
+                                            <a href="https://github.com/jaayperez/ecommerce-dashboard" target="_blank"
+                                                class="btn"><i class="fa fa-github"></i> GitHub</a>
+                                            <a href="https://youtube.com/your-video" target="_blank" class="btn"><i
+                                                    class="fa fa-youtube"></i> YouTube</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="column">
+                            <div class="effect">
+                                <div class="effect-img">
+                                    <img src="Images/pro1.jpg" alt="" style="width: 300px; height: 250px;">
+                                </div>
+                                <div class="effect-text">
+                                    <div class="inner">
+                                        <h2>Blockchain & Crypto Forecast</h2>
+                                        <!-- <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat velit qui quos repellat nulla soluta exceptu.</p> -->
+                                        
+                                        <div class="effect-btn">
+                                            <a href="https://github.com/arthurcerveira/Nutrir-Com-Tempero"
+                                                target="_blank" class="btn"><i class="fa fa-github"></i> GitHub</a>
+                                            </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="column">
+                            <div class="effect">
+                                <div class="effect-img">
+                                    <img src="Images/pro2.jpg" alt="Description of the image"
+                                        style="width: 300px; height: 250px;">
+                                </div>
+                                <div class="effect-text">
+                                    <div class="inner">
+                                        <h2>E-Commerce Website</h2>
+                                        <!-- <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat velit qui quos repellat nulla soluta exceptu.</p> -->
+                                        <div class="effect-btn">
+                                            <a href="https://github.com/riyasharma029/ipl_Data_Analysis" target="_blank"
+                                                class="btn"><i class="fa fa-github"></i> GitHub</a>
+                                             </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="column">
+                            <div class="effect">
+                                <div class="effect-img">
+                                    <img src="Images/pro4.jpg" alt="Description of the image"
+                                        style="width: 300px; height: 257px;">
+                                </div>
+                                <div class="effect-text">
+                                    <div class="inner">
+                                        <h2>Stock Analysis and prediction</h2>
+                                        <!-- <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat velit qui quos repellat nulla soluta exceptu.</p> -->
+                                        <div class="effect-btn">
+                                            <a href="https://github.com/namuan/trading-utils" target="_blank"
+                                                class="btn"><i class="fa fa-github"></i> GitHub</a>
+                                            </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </section>
+
+                <!-- -------------- CONTACT BOX ---------------- -->
+                <section class="section" id="contact">
+                    <div class="top-header">
+                        <h1>Get in Touch</h1>
+                        <span>Do you have a project in mind? Contact me here!</span>
+                    </div>
+                    <div class="row">
+                        <div class="col contact-info">
+                            <h2>Find Me <i class="uil uil-corner-right-down"></i></h2>
+                            <p><i class="uil uil-envelope"></i> Email: <a
+                                    href="mailto:yashsoni7978@gmail.com">alikhan6262687@gmail.com</a></p>
+                            <p><i class="uil uil-phone"></i> Contact: +92 3212309895</p>
+                            <p><i class="uil uil-instagram"></i> Instagram: <a
+                                    href="https://instagram.com/itxs.hassanali" target="_blank"
+                                    rel="noopener noreferrer">@itxs.hassanali</a></p>
+                        </div>
+                        <div class="col form-container">
+                            <form action="connect.php" method="post">
+                                <div class="form-inputs">
+                                    <input type="text" name="Name" class="input-field" placeholder="Name" required>
+                                    <input type="email" name="Email" class="input-field" placeholder="Email" required>
+                                </div><br>
+                                <div class="text-area">
+                                    <textarea name="Message" placeholder="Message" required></textarea>
+                                </div>
+                                <div class="form-button">
+                                    <button type="submit" class="btn">Send</button>
+                                </div>
+                            </form>
+
+                        </div>
+                    </div>
+                </section>
+
+
+
+                <!-- --------------- FOOTER --------------- -->
+                <footer>
+                    <div class="top-footer">
+                        <p>Hassan Ali .</p>
+                    </div>
+                    <div class="middle-footer">
+                        <ul class="footer-menu">
+                            <li class="footer_menu_list">
+                                <a href="#home">Home</a>
+                            </li>
+                            <li class="footer_menu_list">
+                                <a href="#about">About</a>
+                            </li>
+                            <li class="footer_menu_list">
+                                <a href="#skills">skills</a>
+                            </li>
+                            <li class="footer_menu_list">
+                                <a href="#projects">Projects</a>
+                            </li>
+                            <li class="footer_menu_list">
+                                <a href="#contact">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="bottom-footer">
+                        <p>Copyright &copy; <a href="#home" style="text-decoration: none;"> Hassan Ali</a> - All rights
+                            reserved</p>
+                    </div>
+                </footer>
+
+        </div>
+    </div>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbx4S38t31KRJ9TFlvB7OP-OsI0wKF0nWzh1qRSJpBEoaYxg4UKMZRDnY-0nJO-XPGWaHg/exec'
+        const form = document.forms['submit-to-google-sheet']
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => console.log('Success!', response))
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+
+    <script>
+        function redirect(url) {
+            window.location.href = url;
+        }
+    </script>
+
+
+    <!-- ----- TYPING JS Link ----- -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <!-- ----- SCROLL REVEAL JS Link----- -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- ----- MAIN JS ----- -->
+    <script src="main.js"></script>
+</body>
+
+</html>
